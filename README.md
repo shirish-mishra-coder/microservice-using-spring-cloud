@@ -14,3 +14,8 @@ Microservices implementation using Spring Cloud and Dockerizing each microservic
 
 # Fault Tolerance
 1. Resilence 4j used for fault tolerance. Used to provide default response when service is down.
+
+# Centralized Configuration
+1. Spring Cloud Config used to provide server-side and client-side support for externalized configuration in a distributed system.
+   With the Config Server, we have a central place to manage external properties for applications across all environments using Github
+   such as dev, test, uat etc.
